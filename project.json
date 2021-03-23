@@ -1,0 +1,20 @@
+{
+	"name": "kulinichdaniil.ovobox.pro",
+	"api_key": "rxoE6c3P5hkHbenUYMKZMfoG6wP2Zrwr",
+    "msg_module": {
+        "feedback": {
+            "default_list": {
+                "subject": "Заявка с сайта!",
+                "template": "/mail.html",
+                "type": "email",
+                "from": "noreply@ovo.ua",
+                "list": [
+                    {
+                        "name": "Kulinich",
+                        "email": "kulinichdanya@gmail.com"
+                    }
+                ]
+            }
+        }
+    }
+}
